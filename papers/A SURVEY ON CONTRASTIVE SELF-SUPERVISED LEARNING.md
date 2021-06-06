@@ -1,7 +1,6 @@
 # A SURVEY ON CONTRASTIVE SELF-SUPERVISED LEARNING
 
 自己教師あり学習のサーベイ。  
-参考：[自己教師あり学習などの学習の種類](http://wiki.waishimu.com:8080/user/yshim/%E6%A9%9F%E6%A2%B0%E5%AD%A6%E7%BF%92/%E8%87%AA%E5%B7%B1%E6%95%99%E5%B8%AB%E3%81%82%E3%82%8A%E5%AD%A6%E7%BF%92%E3%81%AA%E3%81%A9%E3%81%AE%E5%AD%A6%E7%BF%92%E3%81%AE%E7%A8%AE%E9%A1%9E)  
 
 * ABSTRACT
     * 大規模なデータセットのアノテーションにはコストがかかるため、それを回避できる自己教師付き学習が人気を集めている。
