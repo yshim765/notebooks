@@ -2,6 +2,21 @@
 
 自己教師あり学習のサーベイ。  
 
+事前知識：
+深層学習の学習方法について
+* 全てラベルがついているデータでモデルを学習させる：supervised learning
+* 全てラベルがついていないデータでモデルを学習させる：unsupervised learning
+* 一部のラベルがついているデータと、ラベルがついていない大量のデータでモデルを学習させる：semi-supervised learning
+* 一部のラベルがついているデータでモデルを学習させたのち、ラベルのついていないデータを予測させて境界領域のデータを見つけ、人間にアノテーションさせる：active learning
+* 一部のラベルがついているデータと、ラベルがついていない大量ののデータでモデルを学習させる：semi-supervised learning
+* 別のドメインで学習させたモデルを、ラベルつきデータが少ないドメインに適用させる：transfer learning
+* 別のドメインの大量のデータと、ラベルつきデータが少ないドメインのデータを両方使ってモデルを学習させる：domain adaptation
+
+[Semi supervised, weakly-supervised, unsupervised, and active learning](https://www.slideshare.net/ren4yu/semi-supervised-weaklysupervised-unsupervised-and-active-learning)  
+[少ないアノテーションコストで楽してディープラーニングの性能を向上させる方法のまとめ](https://qiita.com/karaage0703/items/07157a0406c757ef30b8)  
+[Weak Supervision: A New Programming Paradigm for Machine Learning](https://ai.stanford.edu/blog/weak-supervision/)  
+
+論文の内容：
 * ABSTRACT
     * 大規模なデータセットのアノテーションにはコストがかかるため、それを回避できる自己教師付き学習が人気を集めている。
     * 自己教師付き学習は、自分で定義した疑似ラベルを教師データとして採用し、学習した表現をいくつかの下流のタスクに使用する手法。
