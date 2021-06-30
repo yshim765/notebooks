@@ -1,2 +1,0 @@
-# BayesianOptimizationNotebook
-BayesianOptimizationNotebook
